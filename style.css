@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: #262425;
+}
+.title-menu{
+    padding: 20px;
+    padding-left: 450px;
+}
+.menu{
+    font-size: 5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 120px;
+    color:#79c3aa;
+    
+}
+.sub-menu{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 250px;
+    color: #fbf6d0;
+}
+.head-curriculo{
+    padding: 40px;
+    padding-left: 100px;
+}
+.curriculo{
+    text-decoration: none;
+    color:#eec276 ;
+    padding-left: 5px;
+    font-size: 34px;
+    
+}
+.icon-menu{
+    width: 60px;
+    height: 60px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 2px;
+}
+.li-curriculo{
+    padding: 20px;
+    list-style-type: none;
+    font-size: 25px;
+}
+.li-curriculob :hover{
+    image: url(foto.jpg);
+    
+}
