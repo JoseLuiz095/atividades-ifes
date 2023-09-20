@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #1E212B;
+}
+
+.body {
+    display: flex;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: #4D8B31;
+}
+h2{
+    font-size: 24px;
+    color:#FF8427; 
+}
+p{
+    color: #FFFFFF;
+}
+small{
+    color: #ebebeb;
+}
+b{
+    color: #ebebeb;
+}
+a{
+    color:#f1d46a;
+}
+.esquerda{
+    flex: 6;
+    padding: 2% 0 0 120px;
+    
+}
+.direita{
+    flex: 4; 
+    padding: 3% 40px 0  5%; 
+    
+}
+.remove-decore{
+    padding: 10px 0 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.espaco{
+    padding: 20px 35px 30px;
+}
+.foto{
+    width: 150px;
+    border-radius: 35%;
+}
+.btn-fixed{
+    display: block;
+    position: fixed;
+    top: 55px;
+    left: 34px;
+    
+    z-index: 999;
+}
+.btn-volta{
+    width: 45px;
+    height: 45px;
+}
